@@ -1,0 +1,26 @@
+<html>
+<body>
+<script language = "javascript" type="text/javascript">
+var num1 = window.prompt("Input first number ")
+var operand = window.prompt("Input Operand (+, -, *, /, %) ")
+var num2 = window.prompt("Input second number")
+
+num1 = parseFloat(num1)
+num2 = parseFloat(num2)
+
+if (operand == "+")
+    document.write(num1 + num2);
+else if (operand == "-")
+    document.write(num1 - num2);
+else if (operand == "*")
+    document.write(num1 * num2);
+else if (operand == "/")
+    document.write(num1 / num2);
+else if (operand == "%")
+    document.write(num1 % num2);
+else 
+    document.write("Invalid operand")
+
+</script>
+</body>
+</html>
